@@ -1,88 +1,131 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Yslas Web Development</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Connecting to google fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
-
-    <!-- Connecting to icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-  </head>
-  <header>
-      <!-- In the navbar line changes it to say "lm" instead of "lg", then I got the mobile scroll down -->
-      <div class="container">
-        <nav class="navbar navbar-expand-lm navbar-dark bg-dark">
-            <a class="navbar-brand" href="#" id="brand">Yslas Web Development</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
-                </li>
-            </li>
-          </ul>
-        </div>
-        </nav>
-       </div>
-        </div>
-  </header>
+  
+
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Homemade Apple' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+
+
+
+
+    <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+            
+            .bg {
+                /* The image used */
+                background-image: url("business-computer.jpg");
+            
+                /* Full height */
+                height: 100%; 
+            
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+
+            #brand {
+              color: white;
+              font-size: 45px;
+              font-family: 'Kaushan Script';
+              text-shadow: 2px 2px 4px #000000;
+
+            }
+
+            .navbar-light {
+              color: white;
+              font-size: 15px;
+            }
+
+            .nav-link {
+              color:white !important;
+              font-size: 30px;
+              font-family: 'Kaushan Script';
+              text-shadow: 2px 2px 4px #000000;
+
+            }
+
+            .linktab1 {
+              position: absolute;
+              bottom: 8px;
+              right: 100px;
+            }
+
+             .linktab2 {
+              position: absolute;
+              bottom: 8px;
+              right: 16px;
+              opacity: 0.65;
+            }
+
+
+
+            /* #clickme {
+              position: absolute;
+              font-size: 30px;
+              /* font-family: 'Great Vibes'; */
+              /* font-family: 'Damion';
+              color: white;
+              bottom: 8px;
+              left: 16px;
+            }  */
+
+            @media only screen and (max-width: 768px) {
+              #brand {
+                font-size: 25px; 
+              }
+        }
+
+           
+            </style>
+
+   <nav class="navbar navbar-expand-lm fixed-top navbar-light">
+  <a class="navbar-brand" href="#" id="brand">Yslas Web Development</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="change">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+      <li class="nav-item active">
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+              </li>
+      <li class="nav-item">
+      <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+  </li>
+</ul>
+</div>
+</nav>
+
+</head>
   <body>
 
-    <div class="container">
-        
-        <div class="card">
-            <!-- <div class="card-header">
-            About Me
-            </div> -->
-            <div class="card-body">
-                <img src="Jared-Crazy-Face.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive-image">
+        <div class="bg"></div>
 
-                    <!-- <img src="Jared-Crazy-Face.jpg" alt="CrazyFaceGinger" class="img-thumbnail"> -->
-              <h5 class="card-title">Welcome to Yslas Web Development</h5>
-              <i class="material-icons md-48">build</i>
-              <i class="material-icons md-48">code</i>
-              <i class="material-icons md-48">bar_chart</i>
+        <a href="https://github.com/YslasCo">
+        <img src="GitHub64px.png" alt="GitHub Icon" class="linktab1"></a>
 
-              <p>Unique Design</p>
-              <p>Desktop and Mobile Sites/Apps</p>
-              <p>Optimize Your Business</p>
-
-              <p class="card-text">I am a nurse turned web developer who specializes in creating websites, blogs, and apps for entreprenuers and organizations alike.  If you have a wild idea or would like to update your web page, I am your guy.  I offer a personalized and detailed approach to my projects and am eager to create user friendly, search engine optimized, asethetically pleasing sites or applications.</p>
-          <div class="center-butn">
-              <a href="portfolio.html" class="btn btn-secondary btn-lg">Check out my work</a>
-                </div>
-             </div> 
-          </div>
-            </div>
-            </div>
-          </div>
-        </div>
-    </div>
-
-
-
-
-   
-
-
-
-
+        <a href="http://www.linkedin.com/in/jared-yslas-developer">
+          <img src="IN-59px.png" alt="GitHub Icon" class="linktab2"></a>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
