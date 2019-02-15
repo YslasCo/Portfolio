@@ -64,13 +64,55 @@
 
 
 }
+
+#maybe {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .viddywell {
+    display: none;
+  }
+   #maybe {
+    
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .material-icons {
+          position: relative;
+          color: dodgerblue;
+          font-size: 40px;
+          display: block;
+          text-align: center;
+          margin-top: 40px;
+        }
+
+        .infor {
+       color: dodgerblue;
+       font-size: 20px;
+       text-align: center;
+    
+     }
+
+     /* .navbar-brand {
+          display: block;
+          font-family: 'Cinzel Decorative';
+          font-size: 30px;
+          font-weight: 10px;
+          padding-top: 10px;
+          color: dodgerblue;
+
+        } */
+}
      
-      
 
     </style>
-    
+
     <nav class="navbar">
-        <span class="navbar-brand">Yslas-DeV</span>
+        <span class="">Yslas-Dev</span>
             <ul class="nav bg-dark justify-content-end">
                     <li class="nav-item">
                       <a class="nav-link active who" href="#">Portfolio</a>
@@ -93,7 +135,10 @@
             <video  playsinline autoplay muted loop>
             <source src="sketchvid.mp4" type="video/mp4">
             </video>
-</div>
+            </div>
+            <div class= "mediaimage" id="maybe">
+              <img src="codez.jpg" style="height: 400px; width: 100%; margin-top: 50px;">
+            </div>
            
             <!-- <i class="material-icons" >group</i>    -->
             <i class="material-icons" >code</i>
