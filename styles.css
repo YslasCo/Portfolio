@@ -1,0 +1,178 @@
+
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+            
+            .bg {
+                /* The image used */
+                background-image: url("computerpic.jpg");
+            
+                /* Full height */
+                height: 100%; 
+            
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+
+            #brand {
+              color: white;
+              font-size: 48px;
+              font-family: 'Cinzel Decorative';
+              text-shadow: 2px 2px 4px #000000;
+
+            }
+
+
+            .nav-link {
+              color:white !important;
+              font-size: 20px;
+              font-family: 'Cinzel Decorative';
+              text-shadow: 2px 2px 4px #000000;
+
+            }
+
+            .linktab1 {
+              position: absolute;
+              bottom: 8px;
+              right: 100px;
+            }
+
+             .linktab2 {
+              position: absolute;
+              bottom: 8px;
+              right: 16px;
+              opacity: 0.75;
+            }
+
+           .centered {
+              position: absolute;
+              top: 190px;
+              width: 570px;
+              height: 230px;
+              right: 34%;
+              padding: 6px;
+              border: 7px solid white;
+              margin: 0;
+              border-style: ridge;
+                  /* /* color: white; */
+              font-size: 40px; 
+              text-shadow: 4px 4px 4px #000000;
+            
+           }
+
+           #tagline {
+             margin-top: 55px;
+             margin-left: 65px;
+             color:white;
+             font-size: 28px;
+             font-weight: 20px;
+             text-shadow: 3px;
+             font-family: "Cinzel Decorative";
+            
+           }
+
+           #subtag {
+             margin-left: 36px;
+             color: white;
+            font-size: 28px;
+             font-weight: 20px;
+             text-shadow: 3px;
+             font-family: "Cinzel Decorative";
+            
+           }
+
+           /* .navbar-toggler {
+             color: white;
+           } */
+
+
+
+           
+
+
+
+            @media only screen and (max-width: 600px) {
+              #brand {
+                margin-left: 28%;
+                font-size: 34px; 
+                /* text-align: center; */
+                /* display: inline-block; */
+              }
+
+              .nav-link{
+                font-size: 12px;
+                margin-top: 20px;
+               margin-left:30px;
+                padding: 2px;
+                text-decoration: underline;
+              }
+
+              #tagline {
+                margin-left:3%;
+                /* margin-right: auto; */
+                /* left: 80px; */
+                /* margin-left: 80px; */
+                /* padding-right: 20px; */
+                /* left: 35px; */
+                font-size: 20px;
+                /* text-align: center; */
+                font-weight: 10px;
+                color: 	#FFFFFF
+
+              }
+
+            
+           .centered {
+              position: absolute;
+              
+              width: 315px;
+              height: 220px; 
+
+              text-align: center; 
+              padding: 3px; 
+              border: 3px solid white;
+              border-style: ridge;
+              font-size: 16px;
+              left: 50%;
+              /* left: 50%; */
+              top: 35%;
+              transform: translate(-50%, -50%);
+              text-shadow: 2px 2px #708090;
+              /* display: inline-block; */
+              
+            
+           }
+
+           .navbar-toggler-icon {
+             text-align: center;
+             display: inline-block;
+             
+           }
+
+           #subtag {
+             font-size:16px;
+             margin-left: 3%;
+           }
+
+           .linktab1 {
+              position: absolute;
+              bottom: 8px;
+              right: 100px;
+            }
+
+             .linktab2 {
+              position: absolute;
+              bottom: 8px;
+              right: 16px;
+              opacity: 0.75;
+            }
+
+              
+             
+
+        }
+
