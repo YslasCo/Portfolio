@@ -1,0 +1,85 @@
+.who {
+    font-family: 'Cinzel Decorative';
+            color: white ;
+            font-size: 20px;
+           left: 40px;
+           padding: 15px;
+           /* text-decoration: underline; */
+        }
+
+        .navbar-brand {
+          font-family: 'Cinzel Decorative';
+          font-size: 55px;
+          font-weight: 20px;
+          padding-top: 10px;
+          color: dodgerblue;
+
+        }
+
+        .viddywell1 {
+            margin-left: 22%;
+            margin-top: 25px;
+        }
+
+ p {
+     font-family: 'Kaushan Script';
+     font-size: 24px;
+     color: dodgerblue;
+     padding: 4px;
+     text-align: center;
+ }
+
+ .lemonadetext {
+    font-family: 'Kaushan Script';
+    font-size: 35px;
+    color: #FFFF99;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+ }
+
+ @media only screen and (max-width: 600px) {
+  
+ 
+  .navbar-brand {
+          display: block;
+          font-family: 'Cinzel Decorative';
+          text-align: center;
+          font-size: 40px;
+          font-weight: 10px;
+          padding-top: 10px; 
+          padding-left: 22%;
+          color: dodgerblue;
+
+        }
+
+    .nav {
+          margin-left: 2%;
+          margin-top: 10px;
+          border: 3px solid dodgerblue;
+          border-radius: 5px;
+        }
+
+        .viddywell1 {
+          width: 100%;
+          margin: auto;
+            margin-top: 25px;
+        }
+
+        .lemonadetext {
+    font-family: 'Kaushan Script';
+    font-size: 25px;
+    color: #FFFF99;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+ }
+
+ p {
+     font-family: 'Kaushan Script';
+     font-size: 19px;
+     color: dodgerblue;
+     padding: 4px;
+     text-align: center;
+ }
+
+
+ }
