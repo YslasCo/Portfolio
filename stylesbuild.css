@@ -1,75 +1,70 @@
 .who {
-    font-family: 'Cinzel Decorative';
+  font-family: "Cinzel Decorative";
 
-      color: white ;
-      font-size: 20px;
-     left: 40px;
-     padding: 15px;
-     /* text-decoration: underline; */
-  }
-
-  .navbar-brand {
-    font-family: 'Cinzel Decorative';
-    font-size: 55px;
-    font-weight: 20px;
-    padding-top: 10px;
-    color: dodgerblue;
-    margin-left: 12px;
-
-  }
-
-  .material-icons {
-    position: relative;
-    color: dodgerblue;
-    font-size: 100px;
-    display: block;
-    text-align: center;
-   
-  }
-
-.infor {
- font-family: 'Kaushan Script';
- color: dodgerblue;
- font-size: 45px;
- text-align: center;
-
+  color: white;
+  font-size: 20px;
+  left: 40px;
+  padding: 15px;
+  /* text-decoration: underline; */
 }
 
-#singlebutton {
- /* text-align: center; */
- /* margin:0px auto;  */
- /* margin-top: 2%; */
- font-family: 'Kaushan Script';
-
- padding: 10px;
- margin: 15px;
-}
-
-.viddywell {
- padding-top: 20px;
- margin-left: 22%;
- height: auto;
- display: block;
- padding-bottom: 25px;
-}
-
-#maybe {
-display: none;
-}
-
-@media only screen and (max-width: 600px) {
-
-.viddywell {
-display: none;
-}
-#maybe {
-
-display: block;
-height: auto;
-width: 100%;
+.navbar-brand {
+  font-family: "Cinzel Decorative";
+  font-size: 55px;
+  font-weight: 20px;
+  padding-top: 10px;
+  color: dodgerblue;
+  margin-left: 12px;
 }
 
 .material-icons {
+  position: relative;
+  color: dodgerblue;
+  font-size: 100px;
+  display: block;
+  text-align: center;
+}
+
+.infor {
+  font-family: "Kaushan Script";
+  color: dodgerblue;
+  font-size: 45px;
+  text-align: center;
+}
+
+#singlebutton {
+  /* text-align: center; */
+  /* margin:0px auto;  */
+  /* margin-top: 2%; */
+  font-family: "Kaushan Script";
+
+  padding: 10px;
+  margin: 15px;
+}
+
+.viddywell {
+  padding-top: 20px;
+  margin-left: 15%;
+  height: auto;
+  display: block;
+  padding-bottom: 25px;
+}
+
+#maybe {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .viddywell {
+    display: none;
+  }
+  #maybe {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .material-icons {
     position: relative;
     color: dodgerblue;
     font-size: 45px;
@@ -79,32 +74,26 @@ width: 100%;
   }
 
   .infor {
- color: dodgerblue;
- font-size: 20px;
- text-align: center;
+    color: dodgerblue;
+    font-size: 20px;
+    text-align: center;
+  }
 
-}
-
-.navbar-brand {
+  .navbar-brand {
     display: block;
-    font-family: 'Cinzel Decorative';
+    font-family: "Cinzel Decorative";
     text-align: center;
     font-size: 40px;
     font-weight: 10px;
-    padding-top: 10px; 
+    padding-top: 10px;
     padding-left: 22%;
     color: dodgerblue;
-
   }
 
-.nav {
-    margin-left: 4%; 
-     margin-top: 10px;
+  .nav {
+    margin-left: 4%;
+    margin-top: 10px;
     border: 3px solid dodgerblue;
     border-radius: 5px;
   }
-
-
-
-
-} 
+}
