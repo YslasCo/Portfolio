@@ -37,6 +37,15 @@ p {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.liItem {
+  /* text-align: center; */
+  color: dodgerblue;
+  font-family: "Kaushan Script";
+  font-size: 30px;
+  display: table;
+  margin: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-brand {
     display: block;
@@ -47,6 +56,15 @@ p {
     padding-top: 10px;
     padding-left: 22%;
     color: dodgerblue;
+  }
+
+  /* Just added 3/12 test */
+  .nav-link {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 2px;
+    text-decoration: underline;
   }
 
   .nav {
