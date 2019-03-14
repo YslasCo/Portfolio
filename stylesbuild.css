@@ -90,9 +90,24 @@
     color: dodgerblue;
   }
 
-  .nav {
+  /* .nav {
     margin-left: 4%;
     margin-top: 10px;
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+  } */
+  /* Just added 3/12 test, it worked then on mystory */
+  .nav-link {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 8px;
+    padding: 11px;
+    text-decoration: underline;
+  }
+
+  .nav {
+    margin-left: 12%;
+    /* margin-top: 10px; */
     border: 3px solid dodgerblue;
     border-radius: 5px;
   }
