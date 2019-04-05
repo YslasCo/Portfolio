@@ -44,7 +44,8 @@
 
 .viddywell {
   padding-top: 20px;
-  margin-left: 15%;
+  /* margin-left: 15%;  */
+  margin: auto;
   height: auto;
   display: block;
   padding-bottom: 25px;
@@ -67,7 +68,7 @@
   .material-icons {
     position: relative;
     color: dodgerblue;
-    font-size: 45px;
+    font-size: 55px;
     display: block;
     text-align: center;
     margin-top: 40px;

@@ -17,9 +17,16 @@
 }
 
 .viddywell1 {
-  margin-left: 22%;
+  /* margin-left: 22%;
+  margin: auto;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 25px; */
+  padding-top: 20px;
+  /* margin-left: 15%;  */
+  margin: auto;
+  height: auto;
+  display: block;
+  padding-bottom: 25px;
 }
 
 p {
